@@ -7,8 +7,8 @@ var PORT = process.env.PORT || 8080;
 //fill in the port with the heroku version
 
 app.get("/", function(req, res) {
+res.sendFile(path.join(__dirname, "app/public/home.html");
 
-    
 });
 
 
