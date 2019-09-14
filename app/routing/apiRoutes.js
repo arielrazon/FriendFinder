@@ -1,3 +1,5 @@
+var routing = require("../data/friends.js")
+
 var apiFriends = []
 
 module.exports = {
